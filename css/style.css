@@ -492,9 +492,6 @@ margin-bottom: 72px;
     .soc-icon-team :hover, .soc-icon-team :focus {
         background-color: #404bbf;
     }
-    .web-icons {
-        transition : 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
     .footer-icons {
         fill: #F4F4FD;
     }
@@ -505,7 +502,7 @@ margin-bottom: 72px;
     .web-defs {
         margin-right: 120px;
     }
-    .media-web :hover {
+    .sending-web:hover {
         background-color: #31d0aa;
     }
     .sending-web:focus {
@@ -519,10 +516,16 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-left: 80px;
     }
     .subs-box {
         display: flex;
         gap: 24px;
+        margin-left: 80px;
+    }
+    .sub-container {
+        margin: 0 auto;
+        padding-left: 80px;
     }
     .subs-input {
         width: 264px;
