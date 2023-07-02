@@ -431,7 +431,6 @@ margin-bottom: 72px;
         background-color: #2e2f42;
         padding: 100px 0;
     }
-    
     .web-title {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -473,9 +472,6 @@ margin-bottom: 72px;
     .media-web {
         display: flex;
         gap: 16px;
-        width: 40px;
-        height: 40px;
-        
     }
     .sending-web {
         width: 100%;
@@ -499,9 +495,6 @@ margin-bottom: 72px;
         display: flex;
         align-items: baseline;   
     }
-    .web-defs {
-        margin-right: 120px;
-    }
     .sending-web:hover {
         background-color: #31d0aa;
     }
@@ -516,16 +509,14 @@ margin-bottom: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-left: 80px;
     }
     .subs-box {
         display: flex;
         gap: 24px;
-        margin-left: 80px;
     }
     .sub-container {
-        margin: 0 auto;
-        padding-left: 80px;
+        margin-left: 80px;
+        padding-left: 120px;
     }
     .subs-input {
         width: 264px;
@@ -621,7 +612,7 @@ margin-bottom: 72px;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .modal :hover , .modal :focus {
-        fill: #FFFFFF;
+        fill: #ffffff;
     }
     .modal-text {
         font-weight: 500;
@@ -665,7 +656,7 @@ margin-bottom: 72px;
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        fill: #4D5AE5;
+        fill: #4d5ae5;
     }
     .text-modal {
         width: 100%; 
@@ -701,6 +692,7 @@ margin-bottom: 72px;
         align-items: center;
         justify-content: center;
         fill: transparent;  
+        margin: 8px;
     }
     .input-checkbox:checked + .modal-privacy > .icon-modal  {
         background-color: #404BBF;
